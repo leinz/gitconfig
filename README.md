@@ -1,2 +1,3 @@
 gitconfig
 =========
+Portable git configuration
