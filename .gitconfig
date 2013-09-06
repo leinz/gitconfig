@@ -1,0 +1,26 @@
+[alias]
+        br = branch
+        ci = commit
+        co = checkout
+        st = status
+        mt = mergetool
+        staged = diff --cached
+        amend = commit --amend
+        sp = stash pop
+        ss = stash show -p
+        ff = pull --ff-only
+[color]
+        branch = auto
+        diff = auto
+        interactive = auto
+        status = auto
+	ui = auto
+[user]
+	name = John Snow
+	email = john@nightswatch.org
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
+[push]
+        default = tracking
