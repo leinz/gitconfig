@@ -9,6 +9,8 @@
         sp = stash pop
         ss = stash show -p
         ff = pull --ff-only
+        loggraph = log --graph --full-history --date=short --color --pretty=format:'%C(white)%h%x09%C(red bold)%ad%C(green bold)%d%x20%C(white)%s %C(cyan)%an' --simplify-by-decoration
+        loggraph-all = log --graph --full-history --date=short --all --color --pretty=format:'%C(white)%h%x09%C(red bold)%ad%C(green bold)%d%x20%C(white)%s %C(cyan)%an' --simplify-by-decoration
 [color]
         branch = auto
         diff = auto
