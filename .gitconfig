@@ -18,8 +18,8 @@
         status = auto
 	ui = auto
 [user]
-	name = John Snow
-	email = john@nightswatch.org
+	; name = <your name>
+	; email = <your email>
 [core]
 	editor = vim
 [merge]
